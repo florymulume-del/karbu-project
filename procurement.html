@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procurement page</title>
+</head>
+<body>
+    <form action="">
+<!-- Supplier Information -->
+        <fieldset>
+            <legend>Supplier Information</legend>
+
+    <label for="">Supplier Name</label>
+    <input type="text" placeholder="Enter Supplier Name" required>
+
+    <label for="">Supplier Contact</label>
+    <input type="tel" required>
+        </fieldset>
+<!-- 
+Purchase Details -->
+    <fieldset>
+        <legend>Purchase Details</legend>
+        <label for="">Purchase Date</label>
+    <input type="date">
+
+         <label for="">Invoice Number</label>
+    <input type="text" placeholder="Enter Invoice Number" required> 
+
+        <input type="file" id="" name="" accept="image/*">
+
+           <textarea name="" id="">
+
+
+    </textarea>
+
+
+    </fieldset>
+
+
+    <fieldset></fieldset>
+
+
+
+
+
+
+    
+
+    <!-- Product Information -->
+<fieldset>
+    <legend>Product Information</legend>
+
+            <label for="">Product Name</label>
+    <input type="text" placeholder="Enter Product Name" required>
+
+      <label for="">Product Category</label>
+    <select name="" id="">Product Category
+        <option value="">Electronics</option>  
+        <option value="">Furniture</option>
+        <option value="">Stationery</option>
+        <option value="">Groceries</option>
+        <option value="">Other</option>
+    </select>
+    <label for="">Quantity</label>
+    <input type="number" required>  
+
+    <label for="">Unit Price</label>
+    <input type="number" step="0.01" >
+
+      <label for="">Total Amount</label>
+    <input type="number" readonly>  
+
+
+</fieldset>
+ 
+
+
+<fieldset>
+    <legend>Payment Information</legend>
+<label for="">Payment Method</label>
+     <label>
+    <input type="radio" name="payment_method" value="Cash" required>
+    Cash
+  </label>
+   <label>
+    <input type="radio" name="payment_method" value="Mobile" >
+    Mobile Money
+  </label>
+   <label>
+    <input type="radio" name="payment_method" value="bank_transfer">
+    Bank Transfer
+  </label>
+   <label>
+    <input type="radio" name="payment_method" value="credit">
+    Credit
+  </label>
+ 
+
+<label for="">Payment Status</label>
+    <input type="radio" name="payment_status" value="paid">
+    Paid
+  </label>
+    <input type="radio" name="payment_status" value="pending">
+    Pending
+  </label>
+    <input type="radio" name="payment_status" value="partial">
+    Partial
+  </label>
+
+
+  <label for="">Delivery Date</label>
+    <input type="date">
+
+</fieldset>
+  
+
+
+    <button type="submit">Submit</button>
+    <button type="submit">Reset</button>
+    
+    </form>
+</body>
+</html>
